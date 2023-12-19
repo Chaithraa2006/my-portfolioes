@@ -42,6 +42,22 @@
         </div>
     </div>
 </nav>
+
+<div style="color: aliceblue;" id="catFact"></div>
+<script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+<script type="text/javascript">
+  const settings = {
+  async: true,
+  crossDomain: true,
+  url: 'https://catfact.ninja/fact',
+  method: 'GET'
+};
+
+$.ajax(settings).done(function (response) {
+  console.log(response);
+  $('#catFact')[0].innerHTML = response.fact;
+});
+</script>
  <!-- main banner -->
  <section class="bgimage" id="home">
   <div class="container-fluid">
@@ -311,5 +327,25 @@
 </footer>
     <!-- load javascript after loading all html content -->
     <script src="script/script.js"></script>
+  
+Ashwin Mk
+16:05 (1 minute ago)
+to jamshidajamshi1557, fathimathnusaiba2004, fathimathjumana2004, sudheeksha, chaithra.ajana, surakshapr3, krithi.karmai, samsheenam2003, saniyashanu2003, chethanlowrence369, shahidabanu12004, vathsalawork48, sowjanyapr5, GEETHAJYOTHI, fathimathshabna2000, me, fathimaifla2003, sujathakodenkiri11, bhavishya.kerpada
+
+<div style="color: aliceblue;" id="catFact"></div>
+<script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+<script type="text/javascript">
+  const settings = {
+  async: true,
+  crossDomain: true,
+  url: 'https://catfact.ninja/fact',
+  method: 'GET'
+};
+
+$.ajax(settings).done(function (response) {
+  console.log(response);
+  $('#catFact')[0].innerHTML = response.fact;
+});
+</script>
 </body>
 </html>
